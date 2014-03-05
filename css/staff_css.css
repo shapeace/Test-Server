@@ -1,0 +1,378 @@
+@font-face
+{
+	font-family: "ttche9";
+	src: url("/css/ttche9.eot");
+}
+
+<!-- 공통 -->
+
+td
+{
+	font-family:"굴림", "돋움", "gulim", "dotum", "Arial", "sans-serif", "helvetica";
+	font-size:9pt;
+	color:#555555;
+}
+
+a:link
+{
+	color:2aacba;
+	text-decoration: none;
+	font-size:9pt;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+a:visited
+{
+	color:2aacba;
+	text-decoration: none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+a:active
+{
+	color:006ca5;
+	text-decoration: none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+a:hover
+{
+	color:006ca5;
+	text-decoration: underline;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+.input1
+{
+	height:22;
+	padding-top:4;
+	font-family:"ttche9";
+	font-size:12px;
+	color:a3a3a3;
+	background-color :ffffff;
+	border:1px solid cccccc;
+	background-color:ffffff;
+	border-top-color:cccccc;
+	border-right-color:cccccc;
+	border-bottom-color:cccccc;
+	border-left-color:cccccc;
+	ime-mode:active;
+}
+
+.input1_eng
+{
+	height:22;
+	padding-top:4;
+	font-family:"ttche9";
+	font-size:12px;
+	color:a3a3a3;
+	background-color :ffffff;
+	border:1px solid cccccc;
+	background-color:ffffff;
+	border-top-color:cccccc;
+	border-right-color:cccccc;
+	border-bottom-color:cccccc;
+	border-left-color:cccccc;
+}
+
+.input2
+{
+	height:19;
+	padding-top:4;
+	font-family:"ttche9";
+	font-size:12px;
+	color:a3a3a3;
+	background-color :ffffff;
+	border:1px solid cccccc;
+	background-color:ffffff;
+	border-top-color:cccccc;
+	border-right-color:cccccc;
+	border-bottom-color:cccccc;
+	border-left-color:cccccc;
+	width: 132px;
+}
+
+.mori
+{
+	font-size: 12px;
+	line-height: 1.3;
+	font-family: "ttche9", "Arial", "sans-serif", "돋움";
+	color: #555555;
+	letter-spacing:-1px;
+} 
+
+.mori2
+{
+	font-size: 10px;
+	line-height: 1.3;
+	font-family: "tahoma";
+	color: #555555;
+	letter-spacing:-1px;
+} 
+
+.t0
+{
+	font-size: 9pt;
+	line-height: 1.3;
+	font-family: "돋움", "Arial", "sans-serif";
+	font-weight: bold;
+	color: #555555;
+} 
+
+.t0_light
+{
+	font-size: 9pt;
+	font-family: "돋움", "Arial", "sans-serif";
+	color: #555555;
+} 
+
+.t1
+{
+	font-size: 16px;
+	line-height: 1.3;
+	font-family: "돋움", "Arial", "sans-serif";
+	font-weight: bold;
+	color: #555555;
+} 
+
+.t2
+{
+	font-size: 14px;
+	line-height: 1.3;
+	font-family: "돋움", "Arial", "sans-serif";
+	font-weight: bold;
+	color: #555555;
+} 
+
+.t3
+{
+	font-size: 72px;
+	line-height: 1.3;
+	font-family: "돋움", "Arial", "sans-serif";
+	font-weight: bold;
+	color: #555555;
+} 
+
+
+.select
+{
+	behavior: url('/css/select.htc'); 
+	width: 100px;
+	font: 11px 돋움;
+	color: #6c6c6c;
+	height: 22px
+}
+
+textarea
+{
+	font-family:"ttche9";
+	font-size:12px;
+	color:a3a3a3;
+	background-color :ffffff;
+	border:1px solid cccccc;
+	background-color:ffffff;
+	border-top-color:cccccc;
+	border-right-color:cccccc;
+	border-bottom-color:cccccc;
+	border-left-color:cccccc;
+	ime-mode:active;
+}
+
+#tag1
+{
+	color:#7C8A8D;
+	letter-spacing:-1;
+	line-height:200%;
+}
+#tag1 a:link
+{
+	color:#7C8A8D;
+}
+#tag1 a:visited
+{
+	color:#7C8A8D;
+}
+#tag1 a:hover
+{
+	background-color:#1E4F55;
+	color:#FFFF00;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}		
+
+#tag2
+{
+	color:#00B4B5;
+	font-weight:bold;
+	font-size:13px;
+	letter-spacing:-1;
+	line-height:100%;
+}
+#tag2:link
+{
+	color:#00B4B5;
+	font-weight:bold;
+}
+#tag2:visited
+{
+	color:#00B4B5;
+	font-weight:bold;
+}
+#tag2:hover
+{
+	background-color:#1E4F55;
+	color:#FFFF00;
+	font-weight:bold;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+#tag3
+{
+	color:#3C7B66;
+	font-weight:bold;
+	font-size:16px;
+	letter-spacing:-1;
+	line-height:100%;
+}
+#tag3:link
+{
+	color:#3C7B66;
+	font-weight:bold;
+}
+#tag3:visited
+{
+	color:#3C7B66;
+	font-weight:bold;
+}
+#tag3:hover
+{
+	background-color:#1E4F55;
+	color:#FFFF00;
+	font-weight:bold;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+#tag4
+{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:18px;
+	letter-spacing:-1;
+	line-height:125%;
+}
+#tag4:link
+{
+	background-color:#2AACBA;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+#tag4:visited
+{
+	background-color:#2AACBA;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+#tag4:hover
+{
+	background-color:#1E4F55;
+	font-weight:bold;
+	color:#FFFF00;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+#tag5
+{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:21px;
+	letter-spacing:-1;
+	line-height:150%;
+}
+#tag5:link
+{
+	background-color:#12D763;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+#tag5:visited
+{
+	background-color:#12D763;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+#tag5:hover
+{
+	background-color:#1E4F55;
+	font-weight:bold;
+	color:#FFFF00;
+	text-decoration:none;
+	selector-dummy:expression(this.hideFocus=true);
+}
+
+#loadingDiv
+{
+	display:none;
+	width:220px;
+	height:100px;
+	z-index:1;
+	left:550px;
+	position:absolute;
+	top:400px;
+	background-color:#EFEFEF;
+}
+
+#progressDiv
+{
+	display:none;
+	width:220px;
+	height:100px;
+	z-index:1;
+	left:550px;
+	position:absolute;
+	top:400px;
+	background-color:#EFEFEF;
+}
+
+<!-- submenu -->
+#submenubtn
+{
+	border:1px solid #ccc;
+}
+
+#submenu
+{
+	font-size: 9pt;
+	line-height: 1.3;
+	font-family: "돋움", "Arial", "sans-serif";
+	font-weight: bold;
+	color: #555555;
+	text-align:left;
+	padding:0 0 0 9px;
+}
+
+<!-- submenu -->
+
+#message
+{
+	border-right:0px;
+	border-top:0px;
+	z-index:1;
+	left:0px;
+	border-left:0px;
+	width:0px;
+	border-bottom:0px;
+	position:absolute;
+	top:0px;
+	height:0px
+}
